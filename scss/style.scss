@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Inicio de edicion del nav*/
+
+.logo1{
+    width: 90px;
+}
+
+/* Edicion imagenes del header*/
+
+.img1{
+    width: 700px;
+    height:400px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.parrafo{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 300px;
+}
+
+/*Edicion Del Aside*/
+
+.subtitulo{
+    text-align: center;
+    margin-top: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedortarjetas{
+    width: 100%;
+    height: 300px;
+    background-color:rgba(215, 238, 215, 0.493);
+}
+
+.card{
+    margin-top: 50px;
+}
+
+/* Edicion footer*/
+
+.contenedorfooter{
+    width: 100%;
+    height: 190px;
+    background-image: linear-gradient(to left, rgb(188, 243, 188), white );
+    align-items: center;
+}
+
+.logofooter{
+    margin-left: 870px;
+    margin-top: 10px;
+    height: 120px;
+}
+
+.parrafo2{
+    margin-left: 600px;
+}
+
+
+/* Se comienza la edicion de la pagina Contacto (main)*/
+
+.contenedorc{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(227, 241, 227, 0.527);
+    margin-top: 30px;
+    ;
+}
+
+.contacto{
+    text-align: center;
+    font-size: 24px;
+    text-decoration:overline;
+}
+
+.contenedorparrafo{
+    width: 50%;
+    height: 100px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.contenedorimagen{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.horarios{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.contendorform{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.formulario{
+    padding-left: 700px;
+}
+
+.contenedorbotones{
+    margin-bottom: 20px;
+}
+
+.btn1{
+    margin-right: 5px;
+}
+
+.bnt2{
+    margin-left: 5px;
+}
+
+.btn3{
+    margin-left: 10px;
+
+}
+
+.btntext{
+    width: 100px;
+    height: 50px;
+    margin-left: 500px;
+}
+
+/*Edicion footer(contacto)*/
+
+.contenedorfooter2{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to left, rgb(188, 243, 188), white );
+    align-items: center;
+    margin-top: 65px;
+    }
+
+
+/*Comienzo de Edicion Pagina Productos(Main)*/
+
+.contenedorgeneral{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    background-color: rgba(227, 241, 227, 0.527);
+    }
+    
+.tituloproductos{
+    font-size: 28px;
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.list-group{
+    margin-top: 50px;
+}
+
+/*Edicion del Aside*/
+
+.publicidad{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(227, 241, 227, 0.527);
+    margin-top: 40px;
+}
+
+.subtituloproductos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+}
+
+.tarjetas{
+    display: flex;
+    margin: 30px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+/* Comienzo de Edicion pagina Nosotros(Main)*/
+
+.nosotros{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(227, 241, 227, 0.527);
+    margin-top: 40px;
+}
+
+.titulonosotros{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 800px;
+}
+
+.Subtitulonosotros{
+    margin-left: 800px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.parrafosnosotros{
+    width: 40%;
+    height: 50px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 800px;
+    margin-top: 30px;
+    
+} 
+
+.botonesnosotros{
+    margin-left: 500px;
+}
