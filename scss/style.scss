@@ -219,3 +219,39 @@
 
 /*Comienzo de la pagina Compras (main)*/
 
+@mixin propiedadesPrincipales ($bg-color,$ancho,$alto) {
+    background-color:$bg-color ;
+    width: $ancho;
+    height: $alto;
+}
+
+.contenedorcompras{
+   @include propiedadesPrincipales(rgba(227, 241, 227, 0.527),100% ,500px)
+}
+
+.contenedorparrafocompras{
+    width: 100%;
+    height: 500px;
+   
+}
+.parrafocompras{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/*S comienza la edicion del header*/
+.comprasheader{
+    @include propiedadesPrincipales(rgba(195, 241, 195, 0.527),100% ,500px);
+    margin-top: 30px;
+    .dondecomprar{
+        margin-left: 10px;
+    }
+    .boton{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+ }
+
+ 
