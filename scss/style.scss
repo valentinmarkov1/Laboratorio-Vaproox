@@ -246,12 +246,39 @@
     @include propiedadesPrincipales(rgba(195, 241, 195, 0.527),100% ,500px);
     margin-top: 30px;
     .dondecomprar{
-        margin-left: 10px;
+        margin-left: 20px;
     }
+    .puntosdeventa{
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+ .botonescompras{
+    width: 200px;
+    height: 200px;
+    display: flex;
     .boton{
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        
     }
  }
 
- 
+ .mapa{
+     margin-left: 300px;
+  
+ }
+
+ /*Se comienza la edicion del footer*/
+
+ .footercompra{
+     text-align: center;
+     @extend .contenedorfooter2;
+    .logocompra{
+        width: 100px;
+        height: 50px;
+
+    }
+ }
