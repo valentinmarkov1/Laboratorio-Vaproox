@@ -212,9 +212,13 @@
 
 /*Comienzo de la pagina Compras (main)*/
 .contenedorcompras {
-  background-color: rgba(227, 241, 227, 0.527);
+  background-image: url(../paginas/img/fondo-medico-1920x700.jpg);
   width: 100%;
   height: 500px;
+ 
+}
+.titulocompra{
+  margin-left: 10px;
 }
 
 .contenedorparrafocompras {
