@@ -43,7 +43,7 @@
 .contenedorfooter {
   width: 100%;
   height: 190px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#bcf3bc), to(white));
+  background-image:gradient(linear, right top, left top, from(#bcf3bc), to(white));
   background-image: linear-gradient(to left, #bcf3bc, white);
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -129,7 +129,7 @@
 .contenedorfooter2, .footercompra {
   width: 100%;
   height: 200px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#bcf3bc), to(white));
+  background-image: gradient(linear, right top, left top, from(#bcf3bc), to(white));
   background-image: linear-gradient(to left, #bcf3bc, white);
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -169,8 +169,6 @@
 }
 
 .tarjetas {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 30px;
   margin-top: 30px;
@@ -219,6 +217,9 @@
 }
 .titulocompra{
   margin-left: 10px;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 45px;
 }
 
 .contenedorparrafocompras {
@@ -234,7 +235,7 @@
 
 /*S comienza la edicion del header*/
 .comprasheader {
-  background-color: rgba(195, 241, 195, 0.527);
+  background-color:rgba(227, 241, 227, 0.527);
   width: 100%;
   height: 500px;
   margin-top: 30px;
@@ -277,3 +278,114 @@
   height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+/* Se comienza el diseño responsive pagina productos*/
+
+@media screen and (max-width:800px) {
+      .contenedorfooter{
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+      }
+      .logofooter{
+        margin-left: 300px;
+      }
+      .parrafo2{
+        margin-left: 50px;
+      }
+
+      .img1{
+        height: 300px;
+      }
+}
+
+/* Se comienza el diseño responsive pagina incial*/
+@media screen and (max-width:800px) {
+      .contenedorfooter{
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+      }
+      .contenedortarjetas{
+        height: 900px;
+      }
+      .img1{
+        width: 500px;
+        margin-left: 0px;
+      }
+      .parrafo2{
+        margin-left: 10px;
+        font-size: 15px;
+        text-align: center;
+      }
+      .logofooter{
+        margin-left: 200px;
+      }
+}
+
+/* Se comienza el diseño responsive pagina nosotros*/
+
+@media screen and (max-width:800px) {
+  .nosotros{
+    height: 1000px;
+  }
+  .titulonosotros{
+    margin-left: 0px;
+  }
+  .Subtitulonosotros{
+    margin-left: 0px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .parrafosnosotros{
+    margin-left:200px;
+    font-size: 10px;
+  }
+  .botonesnosotros{
+    margin-left: 0px;
+  }
+
+}
+
+/* Se comienza el diseño responsive pagina contacto*/
+
+@media screen and (max-width:800px){
+  .contenedorparrafo{
+    width: 100%;
+    margin-left:0px;
+    font-size: 15px;
+  }
+  .contenedorimagen{
+    display: none;
+  }
+  .formulario{
+    padding: 0px;
+    margin-top: 60px;
+  }
+  .contenedorbotones{
+    margin-bottom: 30px;
+    
+  }
+  .btn3{
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .btntext{
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+
+/* Se comienza el diseño responsive pagina nosotros*/
+
+@media screen and (max-width:800px) {
+  .contenedorcompras{
+    height: 300px;
+  }
+  .mapa{
+    display: none;
+    
+  }
+}
