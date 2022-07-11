@@ -389,3 +389,30 @@
     
   }
 }
+
+/*Comienzo de pagina Comprar*/
+
+.Compresuproducto{
+margin-left: 65px;
+font-size: 35px;
+font-style:oblique;
+  
+}
+.formulariocomprar{
+  margin-left: 65px;
+  margin-top: 50px;
+}
+
+.Subtitulocompra{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+.contenedorfootercompra{
+  width: 100%;
+  height: 240px;
+  margin-top: 130px;
+  background-image: linear-gradient(to left, #bcf3bc, white);
+}
+
+

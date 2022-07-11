@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar|Vaproox</title>
+    <meta name="description" content="Laboratorios Vaproox conciencia por la vida">
+    <link rel="shortcut icon" href="../paginas/img/Logo.SIN.nombre2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./paginas/img/" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img class="logo1" src="../paginas/img/logo.Nombre.jpg" alt="">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../paginas/Productos.html">Productos</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/DondeComprar.html">Donde Comprar</a>
+                  </li>
+                  
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../paginas/Nosotros.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nosotros
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../paginas/comprar.html">Comprar</a></li>
+                      <li><a class="dropdown-item" href="">Trayectoria</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./paginas/contactos.html">Contacto</a></li>
+                    </ul>
+                  </li>
+                  
+                 </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Que Estas Buscando" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+
+        </nav>
+    </nav>
+
+    <main>
+      <div class="contenedorgeneral">
+            <div class="compra">
+                <h2 class="Compresuproducto">Realice su pedido</h2>
+                <h3 class="Subtitulocompra">
+                    Este apartado esta dedicado a que usted pueda realizar el pedido de sus medicamentos y sean entregados su hogar
+                </h3>
+
+                <div class="formulariocomprar">
+                    <form class="Comprarproductos" onsubmit="">
+                          <div class="contenedorbotones"> 
+                              <input class="btn1" id="formulario1" name="formulario1" type="text" placeholder="Nombre">
+                              <input class="bnt2" id="formulario2" name="formulario2" type="email" placeholder="Correo Elecetronico">
+                              <input class="btn3" id="formulario3" name="formulario3" type="text" placeholder="Medicamento">
+                          </div>
+                          
+                          <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                              <textarea class="texto" required="required" placeholder="Aclaracion sobre el Medicamento *" id="edit-submitted-mensaje" name="submitted[mensaje]" cols="60" rows="5" class="form-textarea required"></textarea>
+                             
+                          </div>
+      
+                    </form>
+                    
+                  </div>
+                    <!-- Button trigger modal -->
+                  <button  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   Enviar
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div>
+                            
+                            <div>
+                              <p>Nombre:</p>
+                              <span id='texto1'></span>
+                            </div>
+                            
+                            <div>
+                              <p>Correo:</p>
+                              <span id='texto2'></span>
+                            </div>
+                            
+                            <div>
+                              <p>Medicamento:</p>
+                              <span id='texto3'></span>
+                            </div>
+                            <div>
+                              <p>Aclaracion a tener en cuenta</p>
+                              <span id='texto4'></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            </div>
+      </div>
+    </main>
+
+    
+   
+    <script > 
+        
+      const valor = document.querySelector('#formulario1');
+      const result = document.querySelector('#texto1');
+      
+
+      const valor2 = document.querySelector('#formulario2');
+      const result2 = document.querySelector('#texto2');
+      
+      
+
+      const valor3 = document.querySelector('#formulario3');
+      const result3 = document.querySelector('#texto3');
+
+      const valor4 = document.querySelector('#edit-submitted-mensaje');
+      const result4 = document.querySelector('#texto4');
+      
+      valor.addEventListener('input', function (e) {
+        console.log ("Valorinput1",e)
+        console.log ("Nameinput", e.target.name)
+        if (e.target.name == "formulario1" ){
+            result.textContent = this.value;
+        }
+         
+      })
+      valor2.addEventListener('input', function (e) {
+        console.log ("Valorinput1",e)
+        console.log ("Nameinput", e.target.name)
+        if (e.target.name == "formulario2" ){
+            result2.textContent = this.value;
+        }
+         
+      })
+      valor3.addEventListener('input', function (e) {
+        console.log ("Valortextarea",e)
+        console.log ("Nameinput", e.target.name)
+        if (e.target.name == "formulario3" ){
+            result3.textContent = this.value;
+        }
+         
+      })
+    
+      valor3.addEventListener('input', function (e) {
+        console.log ("Valorinput1",e)
+        console.log ("Nametextarea", e.target.name)
+        if (e.target.name == "formulario4" ){
+            result3.textContent = this.value;
+        }
+         
+      })
+
+      
+    </script>
+     
+     
+     <footer class="contenedorfootercompra">
+      <p class="parrafo2">
+          Copyright 2022 Vaproox SAICF - Todos los derechos reservados. Legales Políticas de privacidad
+      </p>
+
+      <img class="logofooter" src="../paginas/img/logo.Nombre.jpg" alt="">
+       
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<body>
